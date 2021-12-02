@@ -1,0 +1,66 @@
+//foundations
+
+@import "foundation/variables";
+@import "foundation/mixin";
+@import "foundation/function";
+
+*{
+    box-sizing: border-box;
+}
+
+//Objets
+
+@import "objets/grid";
+
+html{
+    font-size: $rootFontSize + px;
+}
+
+body{
+    background-color: neige;
+}
+
+h1{
+    color: $color;
+    font-family: $fontTitle;
+    font-size: pxToRem(30);
+    line-height: pxToRem(30);
+    @include title();
+    @include small-up{
+        color:yellow;
+    }
+    @include medium-up {
+        color:green;
+    };
+
+}
+
+span{
+    font-size: 2em;
+}
+
+p{
+    color: $color;
+    font-family: $fontText;
+}
+
+label{
+    color: $color;
+    font-family: $fontText;
+}
+
+section{
+    article{
+        h2{
+            color:cornflowerblue;
+            @include title();
+            @include small-up;
+            @include medium-up;
+        }
+        p{
+            color: darkmagenta;
+        };
+    }
+}
+
+@import "component/product";
