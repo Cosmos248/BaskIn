@@ -1,66 +1,55 @@
-//foundations
 
-@import "foundation/variables";
-@import "foundation/mixin";
-@import "foundation/function";
+// Foundations
+@import "Foundation/variable";
+@import "Foundation/mixins";
+@import "Foundation/functions";
 
-*{
-    box-sizing: border-box;
-}
-
-//Objets
-
-@import "objets/grid";
+// Objects
+@import "objects/grid";
 
 html{
-    font-size: $rootFontSize + px;
+    font-size: $rootfontSize + px;
 }
 
-body{
-    background-color: neige;
-}
-
-h1{
-    color: $color;
-    font-family: $fontTitle;
-    font-size: pxToRem(30);
-    line-height: pxToRem(30);
-    @include title();
-    @include small-up{
-        color:yellow;
+h1 {
+    color : $colorTitle;
+    font-family: pxToRem(10);
+    font-size: pxToRem(10);
+    @include title;
+    @include small-up {
+        color: brown;        
     }
-    @include medium-up {
-        color:green;
-    };
+    @include medium-up{
+        color: aquamarine
+    }
 
-}
-
-span{
-    font-size: 2em;
+    span{
+        font-size: 2rem;
+    }
 }
 
 p{
-    color: $color;
-    font-family: $fontText;
+    color: $colorP;
 }
 
-label{
-    color: $color;
-    font-family: $fontText;
-}
-
-section{
-    article{
+section {
+    article{    
         h2{
-            color:cornflowerblue;
-            @include title();
-            @include small-up;
-            @include medium-up;
+            color:green;
+            @include title;
+            @include small-up {
+                color: brown;        
+            }
+
+            @include medium-up{
+                color: aquamarine
+            }
         }
         p{
-            color: darkmagenta;
-        };
+            color: orchid;
+            
+        }
     }
 }
 
-@import "component/product";
+@import "components/product";
