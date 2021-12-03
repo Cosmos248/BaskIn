@@ -12,7 +12,7 @@ html{
 }
 
 h1 {
-    color : $colorTitle;
+    color : $colordarkgreen;
     font-family: pxToRem(10);
     font-size: pxToRem(10);
     @include title;
