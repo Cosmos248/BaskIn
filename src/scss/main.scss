@@ -1,6 +1,12 @@
 
 // Foundations
 @import "Foundation/variable";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 @import "Foundation/mixins";
 @import "Foundation/functions";
 
