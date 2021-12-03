@@ -1,0 +1,16 @@
+.buton {
+    font-size: $rootfontSize;
+    font-family: $fontTexte;
+    font-weight: bold;
+    color: $colordarkgreen;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    width: 180px;
+    border-radius: 28px;
+    border-width: 4px;
+    border-color:$colordarkgreen;
+    border-style: solid;
+    box-shadow: 1px 1px 5px 2px $colorshadow;
+
+}
