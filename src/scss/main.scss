@@ -7,6 +7,10 @@
 // Objects
 @import "objects/grid";
 
+// Elements
+@import "Elements/bouton";
+@import "Elements/titre";
+
 html{
     font-size: $rootfontSize + px;
 }
