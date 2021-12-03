@@ -17,7 +17,7 @@ html{
 h2 {
     color : $colordarkgreen;
     font-family: $fontTitle;
-    font-size: pxToRem(35);
+    
     @include title;
     @include small-up {
         font-size: pxToRem(12);        
