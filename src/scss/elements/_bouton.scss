@@ -1,5 +1,4 @@
 .buton {
-    font-size: $rootfontSize;
     font-family: $fontTexte;
     font-weight: bold;
     color: $colordarkgreen;
@@ -12,5 +11,18 @@
     border-color:$colordarkgreen;
     border-style: solid;
     box-shadow: 1px 1px 5px 2px $colorshadow;
+    @include small-up {
+        font-size: pxToRem(12);        
+    }
+    @include medium-up{
+        font-size: pxToRem(18)    }
+    &:hover{
+        cursor:pointer;
+        background-color: $colordarkgreen;
+        color: $colorwhite;
+        box-shadow: none;
+        transition: all ease-out 0.4s;
+    }
 
 }
+
