@@ -1,6 +1,25 @@
-#eco-responsable{
+.valeurHaut{
     height: 358px;
     width: 337px;
     background: $colordarkpink;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.e-nosValeur-Img{
+    height: 150px;
+}
+
+.valeurBas{
+    width: 337px;
+    height: 70px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: blue;
+    vertical-align: middle;
 }
