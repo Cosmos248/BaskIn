@@ -28,33 +28,10 @@ h2 {
     text-decoration: underline;
         text-underline-position: right;
         text-decoration-color: $colordarkpink;
-
 }
 
 p{
     color: $colordarkgreen;
 }
-
-section {
-    article{    
-        h2{
-            color:green;
-            @include title;
-            @include small-up {
-                color: brown;        
-            }
-
-            @include medium-up{
-                color: aquamarine
-            }
-        }
-        p{
-            color: orchid;
-            
-        }
-    }
-}
-
-
 
 @import "components/product";
