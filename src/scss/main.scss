@@ -9,7 +9,6 @@
 
 // Elements
 @import "Elements/bouton";
-@import "Elements/titre";
 
 html{
     font-size: $rootfontSize + px;
@@ -17,19 +16,19 @@ html{
 
 h1 {
     color : $colordarkgreen;
-    font-family: pxToRem(10);
-    font-size: pxToRem(10);
+    font-family: $fontTitle;
+    font-size: pxToRem(35);
     @include title;
     @include small-up {
-        color: brown;        
+        font-size: pxToRem(12);        
     }
     @include medium-up{
-        color: aquamarine
-    }
+        font-size: pxToRem(35)    }
 
-    span{
-        font-size: 2rem;
-    }
+    text-decoration: underline;
+        text-underline-position: right;
+        text-decoration-color: $colordarkpink;
+
 }
 
 p{
@@ -55,5 +54,7 @@ section {
         }
     }
 }
+
+
 
 @import "components/product";
