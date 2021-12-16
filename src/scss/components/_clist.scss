@@ -2,10 +2,19 @@
     display: flex;
     list-style: none; 
     padding: 1rem; 
+    align-items: center;
+    margin-top: 0 ;
+    margin-bottom: 0;
+    
 &__item {
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: pxToRem(25);
-&-Actif {
+    line-height: pxToRem(25);
+    margin-top: 0 ;
+    margin-bottom: 0;
+    padding: 0;
+    
+&.-Actif {
         font-size: pxToRem(50)
 }}}
