@@ -18,3 +18,11 @@
 &.-Actif {
         font-size: pxToRem(50)
 }}}
+
+.e-perso {
+    &__separateur {
+
+        border-top: solid 3px $colordarkgreen ;
+    }
+
+}
