@@ -17,7 +17,9 @@
     
 &.-Actif {
         font-size: pxToRem(50)
-}}}
+}}
+
+}
 
 .e-perso {
     &__separateur {
@@ -26,3 +28,59 @@
     }
 
 }
+
+.c-Colorlist {
+    display: flex; 
+    padding: 1rem; 
+    align-items: center;
+    margin-top: 0 ;
+    margin-bottom: 0;
+    list-style: none;
+    
+
+&__item{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0 ;
+    margin-bottom: 0;
+    padding: 0;
+    height: pxToRem(52);
+    width: pxToRem(52);
+    background-color: $colorshoesdarkred;
+    border-radius: 100%;
+    border: 1px solid transparent;
+
+    &.-shoesdarkred{
+    background-color: $colorshoesdarkred;
+}
+
+&.-shoesyellow{
+    background-color: $colorshoesyellow;
+}
+
+&.-shoesgreen{
+    background-color: $colorshoesgreen;
+}
+
+&.-shoesblue{
+    background-color: $colorshoesblue;
+}
+
+&.-shoesredpink{
+    background-color: $colorshoesredpink;
+}
+
+&.-shoesblack{
+    background-color: $colorshoesblack;
+}
+
+&.-shoesgrey{
+    background-color: $colorshoesgrey;
+}
+
+&.-shoeswhite{
+    background-color: $colorshoeswhite;
+    border-color: grey;
+}
+
+}}
