@@ -1,13 +1,25 @@
 .e-formlist{
-    font-size: 18px;
+    @include small-up {
+        font-size: pxToRem(12);
+    }
+
+    @include medium-up {
+        font-size: pxToRem(18)
+    }
 }
 
-
 .e-formlist__input{
-    min-width: 500px;
     border-color: $colordarkgreen;
     border-style: solid;
     border-radius: 5px;
-    height: 30px;
-    margin: 10px;
+    @include small-up {
+        height: 20px;
+        margin:7px;
+        min-width: 300px;
+    }
+    @include medium-up {
+        height: 30px;
+        margin: 10px;
+        min-width: 500px;
+    }
 }
