@@ -46,6 +46,10 @@ module.exports = {
       template: path.resolve(__dirname, './src/cgu.html'),
       filename : "cgu.html",
     }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, './src/galerie.html'),
+      filename : "galerie.html",
+    }),
   ],
   // Liste des règles à suivre par webpack
   module: {
