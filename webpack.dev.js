@@ -38,6 +38,14 @@ module.exports = {
       template: path.resolve(__dirname, './src/marque.html'),
       filename : "marque.html",
     }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, './src/profil.html'),
+      filename : "profil.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, './src/cgu.html'),
+      filename : "cgu.html",
+    }),
   ],
   // Liste des règles à suivre par webpack
   module: {
