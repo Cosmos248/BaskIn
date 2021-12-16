@@ -1,3 +1,13 @@
+.e-formlist{
+    font-size: 18px;
+}
+
+
 .e-formlist__input{
-    color: green;
+    min-width: 500px;
+    border-color: $colordarkgreen;
+    border-style: solid;
+    border-radius: 5px;
+    height: 30px;
+    margin: 10px;
 }
