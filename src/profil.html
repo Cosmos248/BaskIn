@@ -1,124 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header id="header">
         <img src="/src/imgs/Logo_BaskIn_Grand_Noir.png">
         <div class="menu">
-          <ul>
-            <li><a href="marque.html">La marque</a></li>
-            <li><a href="galerie.html">La galerie</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="personalisation.html">Ma paire</a></li>
-            <li>Mon compte</li>
-          </ul>
+            <ul>
+                <li><a href="marque.html">La marque</a></li>
+                <li><a href="galerie.html">La galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="personalisation.html">Ma paire</a></li>
+                <li>Mon compte</li>
+            </ul>
         </div>
     </header>
 
-<div class="c-menu_div">
-    <ul class="e-menu_ul">
-        <li class="e-menu_li">Mon Profil</li>
-        <li class="e-menu_li">Mot de Passe</li>
-        <li class="e-menu_li">Adresse de livraison</li>
-        <li class="e-menu_li">Mes précommandes</li>
-        <li class="e-menu_li">Mes créations</li>
-    </ul>
-</div>
-<div class="c-monProfil_div">
-    <div class="c-contenu_div">
+    <div class="c-menu_div">
+        <ul class="e-menu_ul">
+            <li class="e-menu_li">Mon Profil</li>
+            <li class="e-menu_li">Mot de Passe</li>
+            <li class="e-menu_li">Adresse de livraison</li>
+            <li class="e-menu_li">Mes précommandes</li>
+            <li class="e-menu_li">Mes créations</li>
+        </ul>
+    </div>
+    <div>
         <div class="e-titre_div">
             <p>Bienvenue à toi Théo,</p>
             <p>Nous sommes ravis de te retrouver</p>
         </div>
-        <div >
-            <div class="c-introduction_div">
-                <h3 class="c-introduction_h3">Mon profil</h3>
-                <p>Ici tu vas pouvoir modifier tes informations personnels. </p>
-                <p>Nous te promettons de les garder rien que pour nous.</p>
-            </div>
-            <div class="c-photo_div">
-                <div class="e-photo_div">
-                    <img class="e-photo_img" src="#" alt="Photo d'un jeune homme">
+        <div class="c-monProfil_div">
+            <div class="c-contenu_div">
+                <div class="c-introduction_div">
+                    <h3 class="c-introduction_h3">Mon profil</h3>
+                    <p>Ici tu vas pouvoir modifier tes informations personnels. </p>
+                    <p>Nous te promettons de les garder rien que pour nous.</p>
                 </div>
-                <button class="e-fullbutton_button">Modifier la photo</button>
-                <button class="e-emptybutton_button">Supprimer la photo</button>
+                <div class="c-photo_div">
+                    <div class="e-photo_div">
+                        <img class="e-photo_img" src="#" alt="Photo d'un jeune homme">
+                    </div>
+                    <button class="e-fullbutton_button">Modifier la photo</button>
+                    <button class="e-emptybutton_button">Supprimer la photo</button>
+                </div>
+                <div class="c-formulaire_div">
+                    <form method="post">
+                        <div class="e-formulaire_div">
+                            <p>Prénom</p>
+                            <input type="text" name="Prénom">
+                        </div>
+                        <div class="e-formulaire_div">
+                            <p>Nom</p>
+                            <input type="text" name="Nom">
+                        </div>
+                        <div class="e-formulaire_div">
+                            <p>Pseudo</p>
+                            <input type="text" name="Pseudo">
+                        </div>
+                        <div class="e-formulaire_div">
+                            <p>E-mail</p>
+                            <input type="text" name="E-mail">
+                        </div>
+                        <div class="e-formulaire_div">
+                            <p>Téléphone</p>
+                            <input type="text" name="Téléphone">
+                        </div>
+                    </form>
+                    <button class="e-emptybutton_button">Sauvegarder</button>
+                </div>
+            </div>
+        </div>
+        <div class="c-motDePasse_div">
+            <div class="c-contenu_div">
+                <div class="c-introduction_div">
+                    <h3 class="c-introduction_h3">Mot de Passe</h3>
+                    <p>Ici tu vas pouvoir modifier ton mot de passe </p>
+                    <p>Ne l'oublie surtout pas !</p>
+                </div>
+                <div class="c-formulaire_div">
+                    <form method="post">
+                        <div class="e-formulaire_div">
+                            <p>Mot de passe actuel</p>
+                            <input type="text" name="MDPactuel">
+                        </div>
+                        <div class="e-formulaire_div">
+                            <p>Nouveau mot de passe</p>
+                            <input type="text" name="NvMDP">
+                        </div>
+                        <div class="e-formulaire_div">
+                            <p>Retaper le mot de passe</p>
+                            <input type="text" name="RetaperMDP">
+                        </div>
+                    </form>
+                    <button class="e-emptybutton_button">Sauvegarder</button>
+                </div>
+            </div>
+        </div>
+        <div class="c-adresseDeLivraison_div">
+            <div class="c-contenu_div">
+                <div class="c-introduction_div">
+                    <h3 class="c-introduction_h3">Adresse de livraison</h3>
+                    <p>Ici tu vas pouvoir modifier tes adresses de livraisons </p>
+                </div>
+                <div class="">
+                    <button class="e-emptybutton_button">
+                        Ajouter une adresse
+                    </button>
+                    <div class="e-rubrique_div">
+                        <div class="e-hautRubrique_div">
+                            <div>
+                                <p>Théo Legrand</p>
+                            </div>
+                            <div>
+                                <p>Adresse par défaut</p>
+                            </div>
+                        </div>
+                        <div class="e-basrubrique_div">
+                            <p>36 rue de la Liberté</p><br>
+                            <p>Montbéliard, Franche-Comté, 25200</p><br>
+                            <p>France</p><br>
+                        </div>
+                        <button class="e-emptybutton_button">Modifier</button>
+                        <button class="e-emptybutton_button">Effacer</button>
+                    </div>
+                    <div class="e-rubrique_div">
+                        <div class="e-hautRubrique_div">
+                            <div>
+                                <p>Théo Legrand</p>
+                            </div>
+                        </div>
+                        <div class="e-basrubrique_div">
+                            <p>86 rue de la Concorde</p><br>
+                            <p>Lens, Haut de France, 62300</p><br>
+                            <p>France</p><br>
+                        </div>
+                        <button class="e-emptybutton_button">Modifier</button>
+                        <button class="e-emptybutton_button">Effacer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-ajouterUneAdresse_div">
+            <div class="c-contenu_div">
+                <div class="c-introduction_div">
+                    <h3 class="c-introduction_h3">Ajouter une adresse de livraison</h3>
+                    <p>Ici tu vas pouvoir ajouetr une nouvelle adresse de livraison</p>
+                </div>
+                <button class="e-emptybutton_button">Utiliser l'emplacement actuel</button>
             </div>
             <div class="c-formulaire_div">
-                <form method="post" >
+                <form method="post">
                     <div class="e-formulaire_div">
-                        <p>Prénom</p>
-                        <input type="text" name="Prénom">
+                        <p>Adresse</p>
+                        <input type="text" name="Adresse">
+                        <input type="text" name="Adresse">
                     </div>
                     <div class="e-formulaire_div">
-                        <p>Nom</p>
-                        <input type="text" name="Nom">
+                        <p>Code postal</p>
+                        <input type="text" name="Code postal">
                     </div>
                     <div class="e-formulaire_div">
-                     <p>Pseudo</p>
-                        <input type="text" name="Pseudo">
-                    </div>
-                    <div class="e-formulaire_div">
-                        <p>E-mail</p>
-                        <input type="text" name="E-mail">
-                    </div>
-                    <div class="e-formulaire_div">
-                        <p>Téléphone</p>
-                        <input type="text" name="Téléphone">
+                        <p>Ville</p>
+                        <input type="text" name="Ville">
                     </div>
                 </form>
-                <button class="e-emptybutton_button">
-                    <p>Sauvegarder</p>
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="c-motDePasse_div">
-    <div class="c-contenu_div">
-        <div class="e-titre_div">
-            <p>Bienvenue à toi Théo,</p>
-            <p>Nous sommes ravis de te retrouver</p>
-        </div>
-        <div class="c-formulaire_div">
-            <form method="post" >
-                <div class="e-formulaire_div">
-                    <p>Mot de passe actuel</p>
-                    <input type="text" name="MDPactuel">
-                </div>
-                <div class="e-formulaire_div">
-                    <p>Nouveau mot de passe</p>
-                    <input type="text" name="NvMDP">
-                </div>
-                <div class="e-formulaire_div">
-                 <p>Retaper le mot de passe</p>
-                    <input type="text" name="RetaperMDP">
-                </div>
-            </form>
-            <button class="e-emptybutton_button">
-                <p>Sauvegarder</p>
-            </button>
-    </div>
-</div>
+                <input type="checkbox" id="e-chexbox_input" name="Défaut" >
+                <label for="e-chexbox_input">Faire de cette adresse mon adresse par défaut</label><br>
+                <button class="e-emptybutton_button">Ajouter</button>
 
+            </div>
+
+        </div>
+        <div class="mesPrecommandes">
+
+        </div>
+    </div>
 
     <div class="footer-inferieur">
         <div class="footer-inferieur-gauche">
-          <!--LAISSER VIDE !-->
+            <!--LAISSER VIDE !-->
         </div>
         <div class="footer-inferieur-milieu">
-          <p>Copyright © 2021 BASKIN SARL</p>
+            <p>Copyright © 2021 BASKIN SARL</p>
         </div>
         <div class="footer-inferieur-droit">
-          <img src="imgs/icons8-amex-100.png">
-          <img src="imgs/icons8-mastercard-100.png">
-          <img src="imgs/icons8-paypal-an-online-payments-system-operating-worldwide-48.png">
-          <img src="imgs/icons8-visa-60.png">
+            <img src="imgs/icons8-amex-100.png">
+            <img src="imgs/icons8-mastercard-100.png">
+            <img src="imgs/icons8-paypal-an-online-payments-system-operating-worldwide-48.png">
+            <img src="imgs/icons8-visa-60.png">
         </div>
-      </div>
+    </div>
 </body>
+
 </html>
