@@ -89,36 +89,36 @@
                 <div class="c-formulaire">
                     <form method="post">
                         <ul>
-                        <li class="e-formlist">
-                            <p>Mot de passe actuel</p>
-                            <input class="e-formlist__input" type="text" name="MDPactuel">
-                        </li>
-                        <li class="e-formlist__input">
-                            <p>Nouveau mot de passe</p>
-                            <input type="text" name="NvMDP">
-                        </li>
-                        <div class="e-formulaire_div">
-                            <p>Retaper le mot de passe</p>
-                            <input type="text" name="RetaperMDP">
-                        </div>
-                    </ul>
+                            <li class="e-formlist">
+                                <p>Mot de passe actuel</p>
+                                <input class="e-formlist__input" type="text" name="MDPactuel">
+                            </li>
+                            <li class="e-formlist">
+                                <p>Nouveau mot de passe</p>
+                                <input class="e-formlist__input" type="text" name="NvMDP">
+                            </li>
+                            <div class="e-formlist">
+                                <p>Retaper le mot de passe</p>
+                                <input class="e-formlist__input" type="text" name="RetaperMDP">
+                            </div>
+                        </ul>
                     </form>
-                    <button class="e-emptybutton_button">Sauvegarder</button>
+                    <button class="e-emptybutton">Sauvegarder</button>
                 </div>
             </div>
         </div>
-        <div class="c-adresseDeLivraison_div">
-            <div class="c-contenu_div">
-                <div class="c-introduction_div">
+        <div class="c-adresseDeLivraison">
+            <div class="c-contenu">
+                <div class="c-introduction">
                     <h3 class="c-introduction_h3">Adresse de livraison</h3>
                     <p>Ici tu vas pouvoir modifier tes adresses de livraisons </p>
                 </div>
                 <div class="">
-                    <button class="e-emptybutton_button">
+                    <button class="e-emptybutton">
                         Ajouter une adresse
                     </button>
-                    <div class="e-rubrique_div">
-                        <div class="e-hautRubrique_div">
+                    <div class="e-rubrique">
+                        <div class="e-rubrique__haut">
                             <div>
                                 <p>Théo Legrand</p>
                             </div>
@@ -126,71 +126,73 @@
                                 <p>Adresse par défaut</p>
                             </div>
                         </div>
-                        <div class="e-basrubrique_div">
+                        <div class="e-rubrique__bas">
                             <p>36 rue de la Liberté</p><br>
                             <p>Montbéliard, Franche-Comté, 25200</p><br>
                             <p>France</p><br>
                         </div>
-                        <button class="e-emptybutton_button">Modifier</button>
-                        <button class="e-emptybutton_button">Effacer</button>
+                        <button class="e-emptybutton">Modifier</button>
+                        <button class="e-emptybutton">Effacer</button>
                     </div>
-                    <div class="e-rubrique_div">
-                        <div class="e-hautRubrique_div">
+                    <div class="e-rubrique">
+                        <div class="e-rubrique__haut">
                             <div>
                                 <p>Théo Legrand</p>
                             </div>
                         </div>
-                        <div class="e-basrubrique_div">
+                        <div class="e-rubrique__bas">
                             <p>86 rue de la Concorde</p><br>
                             <p>Lens, Haut de France, 62300</p><br>
                             <p>France</p><br>
                         </div>
-                        <button class="e-emptybutton_button">Modifier</button>
-                        <button class="e-emptybutton_button">Effacer</button>
+                        <button class="e-emptybutton">Modifier</button>
+                        <button class="e-emptybutton">Effacer</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="c-ajouterUneAdresse_div">
-            <div class="c-contenu_div">
-                <div class="c-introduction_div">
+        <div class="c-ajouterUneAdresse">
+            <div class="c-contenu">
+                <div class="c-introduction">
                     <h3 class="c-introduction_h3">Ajouter une adresse de livraison</h3>
                     <p>Ici tu vas pouvoir ajouetr une nouvelle adresse de livraison</p>
                 </div>
-                <button class="e-emptybutton_button">Utiliser l'emplacement actuel</button>
-                <div class="c-formulaire_div">
+                <button class="e-emptybutton">Utiliser l'emplacement actuel</button>
+                <div class="c-formulaire">
                     <form method="post">
-                        <div class="e-formulaire_div">
-                            <p>Adresse</p>
-                            <input type="text" name="Adresse">
-                            <input type="text" name="Adresse">
-                        </div>
-                        <div class="e-formulaire_div">
-                            <p>Code postal</p>
-                            <input type="text" name="Code postal">
-                        </div>
-                        <div class="e-formulaire_div">
-                            <p>Ville</p>
-                            <input type="text" name="Ville">
-                        </div>
+                        <ul>
+                            <li class="e-formlist">
+                                <p>Adresse</p>
+                                <input class="e-formlist__input" type="text" name="Adresse">
+                                <input class="e-formlist__input" type="text" name="Adresse">
+                            </li>
+                            <li class="e-formlist">
+                                <p>Code postal</p>
+                                <input class="e-formlist__input" type="text" name="Code postal">
+                            </li>
+                            <li class="e-formlist">
+                                <p>Ville</p>
+                                <input class="e-formlist__input" type="text" name="Ville">
+                            </li>
+                        </ul>
                     </form>
-                    <input type="checkbox" id="e-chexbox_input" name="Défaut">
-                    <label for="e-chexbox_input">Faire de cette adresse mon adresse par défaut</label><br>
-                    <button class="e-emptybutton_button">Ajouter</button>
+                    <input type="checkbox" id="e-chexbox" name="Défaut">
+                    <label for="e-chexbox">Faire de cette adresse mon adresse par défaut</label><br>
+                    <button class="e-emptybutton">Ajouter</button>
                 </div>
             </div>
         </div>
-        <div class="mesPrecommandes">
-            <div class="c-contenu_div">
-                <div class="c-introduction_div">
+        <div class="c-mesPrecommandes">
+            <div class="c-contenu">
+                <div class="c-introduction">
                     <h3 class="c-introduction_h3">Mes précommandes</h3>
                     <p>Ici tu vas pouvoir retrouver toutes tes précommandes</p>
                 </div>
-                <div class="c-précommandes_div">
-                    <div class="e-chaussures_div">
+                <div class="c-précommandes">
+                    <div class="e-chaussures">
                         <img src="#" alt="Photo d'une basquette">
                     </div>
-                    <div class="e-informations_div">
+                    <div class="e-informations">
                         <p><strong>Nom de la basket</strong></p>
                         <p>La Bask'It</p>
                         <p><strong>Taille de la basket</strong></p>
@@ -198,7 +200,7 @@
                         <p><strong>Date de livraison estimé</strong></p>
                         <p>janvier 2022</p>
                     </div>
-                    <button class="e-emptybutton_button">Télécharger la facture</button>
+                    <button class="e-emptybutton">Télécharger la facture</button>
                 </div>
             </div>
         </div>
