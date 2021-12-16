@@ -35,10 +35,6 @@ module.exports = {
       filename : "contact.html",
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, './src/Profil_monProfil.html'),
-      filename : "Profil_monProfil.html",
-    }),
-    new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './src/marque.html'),
       filename : "marque.html",
     }),
