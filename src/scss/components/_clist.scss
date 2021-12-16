@@ -1,0 +1,11 @@
+.c-list {
+    display: flex;
+    list-style: none; 
+    padding: 1rem; 
+&__item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: pxToRem(25);
+&-Actif {
+        font-size: pxToRem(50)
+}}}

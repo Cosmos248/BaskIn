@@ -21,6 +21,7 @@
 // Elements
 @import "Elements/bouton";
 @import "Elements/nosValeurs.scss";
+@import "Components/clist";
 
 html{
     font-size: $rootfontSize + px;

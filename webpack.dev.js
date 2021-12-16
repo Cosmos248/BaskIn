@@ -50,6 +50,11 @@ module.exports = {
       template: path.resolve(__dirname, './src/galerie.html'),
       filename : "galerie.html",
     }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, './src/perso.html'),
+      filename : "perso.html",
+    }),
+
   ],
   // Liste des règles à suivre par webpack
   module: {
