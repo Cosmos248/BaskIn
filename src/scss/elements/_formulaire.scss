@@ -4,7 +4,21 @@
     }
 
     @include medium-up {
-        font-size: pxToRem(18)
+        font-size: pxToRem(18);
+    }
+}
+
+.e-formlist__adresse{
+    color: red;
+}
+
+.e-formlist__titre{
+    @include small-up {
+        margin-left: 5px;
+    }
+
+    @include medium-up {
+        margin-left: 12px;
     }
 }
 
