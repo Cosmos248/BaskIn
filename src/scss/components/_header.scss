@@ -1,0 +1,51 @@
+.body{
+    display: block;
+}
+
+#header{
+    background-color: $colordarkgreen;
+    max-height: 90px;
+    max-width: 1200px;
+    border-bottom-left-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    box-shadow: 1px 1px 5px 2px $colorshadow;
+
+}
+
+.e-logo{
+    width: auto;
+    display: flex;
+}
+
+.e-logo__img{
+   max-width: 200px;
+    margin: 10px;
+}
+
+.e-menu{
+   
+}
+
+.e-decoration{
+    font-size: 20px;
+    text-decoration: none;
+    color: $colorwhite;
+    font-family: $fontTexte;
+    
+}
+
+.e-menu__ul{
+    display: flex;
+    flex-direction: row;
+}
+.e-menu__li{
+    display: flex ;
+    flex-direction: row;
+    margin-right: 25px;
+    text-decoration: none;
+    
+}
