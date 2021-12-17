@@ -9,7 +9,7 @@
     border-bottom-left-radius: 30px ;
     border-bottom-right-radius: 30px ;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: auto;
     box-shadow: 1px 1px 5px 2px $colorshadow;
@@ -19,6 +19,7 @@
 .e-logo{
     width: auto;
     display: flex;
+    margin: 0px 35px;
 }
 
 .e-logo__img{
@@ -45,7 +46,8 @@
 .e-menu__li{
     display: flex ;
     flex-direction: row;
-    margin-right: 25px;
+    margin-right: 35px;
     text-decoration: none;
+    align-items: center;
     
 }
